@@ -128,7 +128,7 @@ def sign_up():
         "password": password_hash,
         "profile_name": username_receive,
         "profile_pic": "",
-        "profile_pic_real": "profile_pics/GR5.jpg",
+        "profile_pic_real": "profile_pics/poto_plac.jpeg",
         "profile_info": ""
     }
     db.users.insert_one(doc)
